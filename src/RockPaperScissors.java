@@ -36,7 +36,7 @@ public class RockPaperScissors {
 
 
             if (userChoice.equals(computerChoice)) {
-                System.out.println("It's a tie!");
+                System.out.println("It's a tie!"); // tie in this case
                 ties++;
             } else if (
                     (userChoice.equals("rock") && computerChoice.equals("scissors")) ||
@@ -45,7 +45,7 @@ public class RockPaperScissors {
                             System.out.println("You win!");
                             userScore++;
             } else {
-                System.out.println("Computer wins!");
+                System.out.println("Computer wins!"); // computer wins in this case
                 computerScore++;
             }
             System.out.println("\nScore:");
